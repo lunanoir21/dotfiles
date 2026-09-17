@@ -1,0 +1,27 @@
+# Secrets, never commit.
+.env
+*.yedek
+*.yedek-*
+*.bak
+*.bak-*
+*.orig
+*.orig-*
+*.save
+*.save.*
+
+# Local runtime state
+hypr/settings.json.lock
+hypr/hypridle/active-lock
+
+# Build artifacts (vendor submodules build these locally)
+target/
+node_modules/
+__pycache__/
+*.pyc
+
+# OS / editor noise
+.DS_Store
+.cleanup-backup-*/
+
+# Claude Code'un yerel izin/ayar dosyası — makineye özel, yedeğe girmez.
+.claude/

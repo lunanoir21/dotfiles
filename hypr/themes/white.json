@@ -1,0 +1,33 @@
+{
+  "name": "white",
+  "label": "Saf beyaz",
+  "hint": "Kâğıt beyazı zemin, koyu metin",
+  "dark": false,
+  "island": "white",
+  "swatch": ["#ffffff", "#e6e9ec", "#14161a"],
+  "border": { "active": "1a1c20ee", "inactive": "c2c7ceaa" },
+  "colors": {
+    "crust":    "#ffffff",
+    "mantle":   "#f6f7f9",
+    "base":     "#fbfbfc",
+    "surface0": "#eef0f3",
+    "surface1": "#e2e5e9",
+    "surface2": "#d2d7dd",
+    "overlay0": "#8d939d",
+    "overlay1": "#767c86",
+    "overlay2": "#5f656f",
+    "subtext0": "#666c76",
+    "subtext1": "#40454d",
+    "text":     "#14161a",
+    "mauve":    "#1f2228",
+    "blue":     "#3f5c86",
+    "sapphire": "#3d6b7d",
+    "teal":     "#2f7168",
+    "green":    "#3a7a45",
+    "yellow":   "#8a6a1f",
+    "peach":    "#9a5f2c",
+    "maroon":   "#8f4148",
+    "red":      "#b3352f",
+    "pink":     "#8a4a80"
+  }
+}

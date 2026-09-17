@@ -1,0 +1,13 @@
+AppearancePage 1.0 AppearancePage.qml
+AudioPage 1.0 AudioPage.qml
+BluetoothPage 1.0 BluetoothPage.qml
+BridgePage 1.0 BridgePage.qml
+GeneralPage 1.0 GeneralPage.qml
+IslandPage 1.0 IslandPage.qml
+KeybindsPage 1.0 KeybindsPage.qml
+MonitorsPage 1.0 MonitorsPage.qml
+NetworkPage 1.0 NetworkPage.qml
+OverviewPage 1.0 OverviewPage.qml
+PowerPage 1.0 PowerPage.qml
+StartupPage 1.0 StartupPage.qml
+WeatherPage 1.0 WeatherPage.qml

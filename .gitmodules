@@ -1,0 +1,9 @@
+[submodule "hypr/scripts/quickshell/vendor/dynamic-island"]
+	path = hypr/scripts/quickshell/vendor/dynamic-island
+	url = https://github.com/lunanoir21/quickshell-dynamic-island.git
+[submodule "hypr/scripts/quickshell/vendor/quay"]
+	path = hypr/scripts/quickshell/vendor/quay
+	url = https://github.com/lunanoir21/quickshell-quay.git
+[submodule "hypr/scripts/quickshell/vendor/flare"]
+	path = hypr/scripts/quickshell/vendor/flare
+	url = https://github.com/lunanoir21/quickshell-flare.git

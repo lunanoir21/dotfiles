@@ -1,0 +1,170 @@
+[
+  {
+    "id": "firefox",
+    "name": "Firefox",
+    "icon": "firefox",
+    "category": "internet",
+    "description": { "en": "Mozilla's open-source web browser", "tr": "Mozilla'nın açık kaynak web tarayıcısı" },
+    "packages": { "pacman": "firefox", "aur": "", "apt": "firefox", "dnf": "firefox" }
+  },
+  {
+    "id": "chromium",
+    "name": "Chromium",
+    "icon": "chromium",
+    "category": "internet",
+    "description": { "en": "The open-source browser behind Chrome", "tr": "Chrome'un temelindeki açık kaynak tarayıcı" },
+    "packages": { "pacman": "chromium", "aur": "", "apt": "chromium", "dnf": "chromium" }
+  },
+  {
+    "id": "brave",
+    "name": "Brave",
+    "icon": "brave-desktop",
+    "category": "internet",
+    "description": { "en": "Privacy-focused browser that blocks ads by default", "tr": "Reklamları varsayılan olarak engelleyen, gizlilik odaklı tarayıcı" },
+    "packages": { "pacman": "", "aur": "brave-bin", "apt": "", "dnf": "" }
+  },
+  {
+    "id": "qbittorrent",
+    "name": "qBittorrent",
+    "icon": "qbittorrent",
+    "category": "internet",
+    "description": { "en": "Ad-free BitTorrent client", "tr": "Reklamsız BitTorrent istemcisi" },
+    "packages": { "pacman": "qbittorrent", "aur": "", "apt": "qbittorrent", "dnf": "qbittorrent" }
+  },
+  {
+    "id": "telegram",
+    "name": "Telegram",
+    "icon": "org.telegram.desktop",
+    "category": "communication",
+    "description": { "en": "Fast messaging with cloud sync", "tr": "Bulut eşitlemeli hızlı mesajlaşma" },
+    "packages": { "pacman": "telegram-desktop", "aur": "", "apt": "telegram-desktop", "dnf": "" }
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "icon": "discord",
+    "category": "communication",
+    "description": { "en": "Voice, video and text chat for communities", "tr": "Topluluklar için sesli, görüntülü ve yazılı sohbet" },
+    "packages": { "pacman": "discord", "aur": "", "apt": "", "dnf": "" }
+  },
+  {
+    "id": "thunderbird",
+    "name": "Thunderbird",
+    "icon": "thunderbird",
+    "category": "communication",
+    "description": { "en": "Email, calendar and contacts in one app", "tr": "E-posta, takvim ve kişiler tek uygulamada" },
+    "packages": { "pacman": "thunderbird", "aur": "", "apt": "thunderbird", "dnf": "thunderbird" }
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "icon": "libreoffice-startcenter",
+    "category": "office",
+    "description": { "en": "Documents, spreadsheets and presentations", "tr": "Belge, tablo ve sunum" },
+    "packages": { "pacman": "libreoffice-fresh", "aur": "", "apt": "libreoffice", "dnf": "libreoffice" }
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "icon": "obsidian",
+    "category": "office",
+    "description": { "en": "Notes in plain Markdown files, linked together", "tr": "Birbirine bağlı, düz Markdown dosyalarında notlar" },
+    "packages": { "pacman": "obsidian", "aur": "", "apt": "", "dnf": "" }
+  },
+  {
+    "id": "okular",
+    "name": "Okular",
+    "icon": "okular",
+    "category": "office",
+    "description": { "en": "Reader for PDF, EPUB and other documents", "tr": "PDF, EPUB ve diğer belgeler için okuyucu" },
+    "packages": { "pacman": "okular", "aur": "", "apt": "okular", "dnf": "okular" }
+  },
+  {
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "icon": "visual-studio-code",
+    "category": "development",
+    "description": { "en": "Microsoft's code editor with an extension marketplace", "tr": "Eklenti marketi olan Microsoft kod editörü" },
+    "packages": { "pacman": "", "aur": "visual-studio-code-bin", "apt": "", "dnf": "" }
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "icon": "dev.zed.Zed",
+    "category": "development",
+    "description": { "en": "Fast, collaborative code editor", "tr": "Hızlı, birlikte çalışmaya uygun kod editörü" },
+    "packages": { "pacman": "zed", "aur": "", "apt": "", "dnf": "" }
+  },
+  {
+    "id": "neovim",
+    "name": "Neovim",
+    "icon": "nvim",
+    "category": "development",
+    "description": { "en": "Extensible Vim-based terminal editor", "tr": "Genişletilebilir, Vim tabanlı terminal editörü" },
+    "packages": { "pacman": "neovim", "aur": "", "apt": "neovim", "dnf": "neovim" }
+  },
+  {
+    "id": "vlc",
+    "name": "VLC",
+    "icon": "vlc",
+    "category": "media",
+    "description": { "en": "Plays almost any video or audio file", "tr": "Neredeyse her video ve ses dosyasını oynatır" },
+    "packages": { "pacman": "vlc", "aur": "", "apt": "vlc", "dnf": "vlc" }
+  },
+  {
+    "id": "obs",
+    "name": "OBS Studio",
+    "icon": "com.obsproject.Studio",
+    "category": "media",
+    "description": { "en": "Screen recording and live streaming", "tr": "Ekran kaydı ve canlı yayın" },
+    "packages": { "pacman": "obs-studio", "aur": "", "apt": "obs-studio", "dnf": "obs-studio" }
+  },
+  {
+    "id": "gimp",
+    "name": "GIMP",
+    "icon": "gimp",
+    "category": "media",
+    "description": { "en": "Photo editing and image manipulation", "tr": "Fotoğraf düzenleme ve görsel işleme" },
+    "packages": { "pacman": "gimp", "aur": "", "apt": "gimp", "dnf": "gimp" }
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "icon": "spotify-client",
+    "category": "media",
+    "description": { "en": "Music and podcast streaming", "tr": "Müzik ve podcast dinleme" },
+    "packages": { "pacman": "", "aur": "spotify", "apt": "", "dnf": "" }
+  },
+  {
+    "id": "btop",
+    "name": "btop",
+    "icon": "btop",
+    "category": "system",
+    "description": { "en": "Resource monitor for CPU, memory, disks and network", "tr": "İşlemci, bellek, disk ve ağ izleyicisi" },
+    "packages": { "pacman": "btop", "aur": "", "apt": "btop", "dnf": "btop" }
+  },
+  {
+    "id": "timeshift",
+    "name": "Timeshift",
+    "icon": "timeshift",
+    "category": "system",
+    "description": { "en": "System snapshots you can roll back to", "tr": "Geri dönülebilen sistem anlık görüntüleri" },
+    "packages": { "pacman": "timeshift", "aur": "", "apt": "timeshift", "dnf": "timeshift" }
+  },
+  {
+    "id": "flameshot",
+    "name": "Flameshot",
+    "icon": "org.flameshot.Flameshot",
+    "category": "system",
+    "description": { "en": "Screenshots with quick annotations", "tr": "Hızlı not eklenebilen ekran görüntüsü" },
+    "packages": { "pacman": "flameshot", "aur": "", "apt": "flameshot", "dnf": "flameshot" }
+  },
+  {
+    "id": "gparted",
+    "name": "GParted",
+    "icon": "gparted",
+    "category": "system",
+    "description": { "en": "Disk partition editor", "tr": "Disk bölümü düzenleyici" },
+    "packages": { "pacman": "gparted", "aur": "", "apt": "gparted", "dnf": "gparted" }
+  }
+]

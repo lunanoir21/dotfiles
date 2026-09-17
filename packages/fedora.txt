@@ -1,0 +1,26 @@
+# Fedora (dnf) için EN İYİ ÇABA (best-effort) paket listesi.
+#
+# UYARI: Fedora'da Hyprland ve Quickshell resmi repoda mevcut olabilir (COPR
+# gerekebilir) ama sürüm/paket adı sık değişiyor. Kurulumdan önce kontrol et:
+#   sudo dnf copr enable solopasha/hyprland   (yaygın kullanılan COPR, garanti değil)
+# awww, cava, cliphist, grimblast, satty, swayosd gibi araçlar için de COPR ya da
+# kaynaktan derleme gerekebilir.
+#
+# Aşağıdaki liste sadece dnf'te GERÇEKTEN karşılığı olan, çoğunlukla dağıtımdan
+# bağımsız araçları içerir. install.sh bunları kurar, geri kalanı için uyarı basar.
+
+playerctl
+pipewire
+pipewire-pulseaudio
+wireplumber
+wl-clipboard
+grim
+brightnessctl
+jq
+xdg-user-dirs
+inotify-tools
+NetworkManager
+bluez
+qt6ct
+kitty
+fish

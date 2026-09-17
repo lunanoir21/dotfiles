@@ -1,0 +1,33 @@
+{
+  "name": "gray",
+  "label": "Gri",
+  "hint": "Nötr grafit yüzeyler, yumuşak kontrast",
+  "dark": true,
+  "island": "gray",
+  "swatch": ["#1d1f22", "#3a3d43", "#f0f1f3"],
+  "border": { "active": "f0f1f3ee", "inactive": "60646caa" },
+  "colors": {
+    "crust":    "#1b1d20",
+    "mantle":   "#212327",
+    "base":     "#26282c",
+    "surface0": "#31343a",
+    "surface1": "#3f4249",
+    "surface2": "#4e525a",
+    "overlay0": "#7e838c",
+    "overlay1": "#979da6",
+    "overlay2": "#b0b6bf",
+    "subtext0": "#a8adb6",
+    "subtext1": "#cdd1d8",
+    "text":     "#f0f1f3",
+    "mauve":    "#e8eaee",
+    "blue":     "#cfd4dc",
+    "sapphire": "#b9bfc8",
+    "teal":     "#a2cfc8",
+    "green":    "#a3d0a8",
+    "yellow":   "#dfcc9a",
+    "peach":    "#e0bd97",
+    "maroon":   "#d2a0a0",
+    "red":      "#ec8c85",
+    "pink":     "#d3b8d0"
+  }
+}

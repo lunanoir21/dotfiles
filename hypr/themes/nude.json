@@ -1,0 +1,33 @@
+{
+  "name": "nude",
+  "label": "Ten rengi",
+  "hint": "Sıcak bej zemin, espresso vurgu",
+  "dark": false,
+  "island": "nude",
+  "swatch": ["#f7efe4", "#e6d7c4", "#2f2620"],
+  "border": { "active": "5c4433ee", "inactive": "c9b5a0aa" },
+  "colors": {
+    "crust":    "#f8f1e7",
+    "mantle":   "#f2e9dc",
+    "base":     "#f5ede1",
+    "surface0": "#ebdfce",
+    "surface1": "#e0d1bc",
+    "surface2": "#d2c0a7",
+    "overlay0": "#a08e78",
+    "overlay1": "#8b7963",
+    "overlay2": "#75634f",
+    "subtext0": "#7b6a58",
+    "subtext1": "#544537",
+    "text":     "#2f2620",
+    "mauve":    "#5c4433",
+    "blue":     "#4a5f7a",
+    "sapphire": "#436b73",
+    "teal":     "#396b60",
+    "green":    "#4c7343",
+    "yellow":   "#8a6a1c",
+    "peach":    "#a2622c",
+    "maroon":   "#8c4640",
+    "red":      "#a83a30",
+    "pink":     "#8f4a6b"
+  }
+}

@@ -1,0 +1,56 @@
+# Bu rice'ı çalıştırmak için gerekli paketler — pacman -Qqe'nin tam dökümü
+# (packages-pacman.txt, ~357 paket) DEĞİL. O dosya bu makinenin tüm işletim
+# sistemini yansıtıyor (tarayıcılar, kişisel araçlar, ilgisiz yazılımlar dahil).
+#
+# Bu liste elle kürate edildi: scripts/ ve hyprland.conf içinde gerçekten
+# çağrılan komutlar taranıp (grep) her birinin sağladığı paket bulundu.
+# `pacman -Qqe` yalnızca "elle kurulmuş" paketleri listelediği için jq/fish gibi
+# bağımlılık olarak gelen ama script'lerin gerçekten kullandığı paketleri
+# KAÇIRIYORDU — bu liste onları da içeriyor.
+#
+# Kurulum: sudo pacman -S --needed - < related-configs/packages-rice.txt
+
+# ---- Hyprland çekirdeği ----
+hyprland
+hypridle
+hyprpolkitagent
+
+# ---- Quickshell shell'i ----
+quickshell
+
+# ---- Duvar kağıdı ----
+awww
+
+# ---- Ses / medya ----
+playerctl
+pipewire-alsa
+pipewire-pulse
+wireplumber
+cava
+
+# ---- Pano / ekran görüntüsü ----
+wl-clipboard
+cliphist
+grim
+grimblast-git
+satty
+
+# ---- Donanım / OSD ----
+brightnessctl
+swayosd-git
+
+# ---- Sistem entegrasyonu ----
+jq
+xdg-user-dirs
+inotify-tools
+networkmanager
+bluez
+bluez-utils
+qt6ct
+
+# ---- Terminal (related-configs/kitty ile eşleşir) ----
+kitty
+fish
+
+# ---- İsteğe bağlı ----
+localsend

@@ -1,0 +1,5 @@
+singleton DepotStore 1.0 DepotStore.qml
+singleton DepotTheme 1.0 DepotTheme.qml
+singleton DepotStrings 1.0 DepotStrings.qml
+singleton DepotBackend 1.0 DepotBackend.qml
+singleton DepotMock 1.0 DepotMock.qml

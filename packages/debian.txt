@@ -1,0 +1,28 @@
+# Debian/Ubuntu (apt) için EN İYİ ÇABA (best-effort) paket listesi.
+#
+# UYARI: Hyprland ekosistemi (hyprland, hypridle, hyprpolkitagent, quickshell,
+# awww, cava, cliphist, grimblast, satty, swayosd) Debian/Ubuntu repolarında
+# genelde YOK ya da çok eski sürümde. Bunlar için:
+#   - Hyprland: https://wiki.hyprland.org/Getting-Started/Installation/#debian
+#     (resmi repo yok, kaynaktan derleme ya da topluluk PPA/backports gerekebilir)
+#   - quickshell: kaynaktan derleme gerekir (https://quickshell.org)
+#   - swayosd, grimblast, satty, cliphist: genelde kaynaktan derleme / cargo
+#
+# Aşağıdaki liste sadece apt'te GERÇEKTEN karşılığı olan, çoğunlukla dağıtımdan
+# bağımsız araçları içerir. install.sh bunları kurar, geri kalanı için uyarı basar.
+
+playerctl
+pipewire
+pipewire-pulse
+wireplumber
+wl-clipboard
+grim
+brightnessctl
+jq
+xdg-user-dirs
+inotify-tools
+network-manager
+bluez
+qt6ct
+kitty
+fish
