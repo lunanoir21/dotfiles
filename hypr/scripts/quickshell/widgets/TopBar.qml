@@ -318,7 +318,15 @@ Variants {
                 id: artRetryTimer
                 interval: 500
                 repeat: true
-                running: barWindow.displayArtUrl && barWindow.displayArtUrl.indexOf("placeholder_blank.png") !== -1
+                // barWindow.isMediaActive gate: onMusicDataChanged only updates
+                // displayArtUrl while something is actually playing (it leaves the
+                // last value in place on Stopped, by design, so the bar keeps
+                // showing the last track). Without this gate, a track that never
+                // got art left displayArtUrl on the placeholder, and this timer
+                // kept re-triggering musicForceRefresh every 500ms forever after
+                // playback stopped — a refresh whose result is always ignored
+                // (status "Stopped"), so it changed nothing but burned CPU.
+                running: barWindow.isMediaActive && barWindow.displayArtUrl && barWindow.displayArtUrl.indexOf("placeholder_blank.png") !== -1
                 onTriggered: {
                     musicForceRefresh.running = false;
                     musicForceRefresh.running = true;
